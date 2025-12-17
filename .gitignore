@@ -1,0 +1,58 @@
+
+#############################
+# Ogólne rzeczy
+#############################
+
+# Pliki logów / raportów
+*.log
+*.jou
+*.str
+*.wdb
+*.rpt
+*.dcp
+*.pb
+*.html
+*.xml
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+#############################
+# Vivado – katalogi generowane
+#############################
+
+# Wszystkie cache / hw / runs / sim / ip_user_files w całym projekcie
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/.Xil/
+**/*.gen/
+**/*.data/
+#Ignoruj wszystkie testowe pliki z VHDL
+Generator.vhd
+coefficient_generator.vhd
+filter_1.vhd
+filter_2.vhd
+filter_3.vhd
+generator.vhd
+test.vhd
+top_filter.vhd
+#############################
+# Vivado – srcs: trzymamy TYLKO sources_1/new
+#############################
+
+# Ignoruj pliki symulacyjne i constraints w *.srcs
+**/*.srcs/sim_1/
+**/*.srcs/constrs_1/
+# (sources_1/new zostawiamy – dlatego NIE ignorujemy całego *.srcs)
+
+#############################
+# Pliki, które ZAWSZE trzymamy
+#############################
+
+!.gitignore
+!README.md
