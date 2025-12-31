@@ -138,7 +138,7 @@ The experiments confirmed correct operation of the stroboscope and demonstrated 
 - 🎥 Demonstration video showing real-time stroboscopic operation
 - 📊 Comparative results of period-based and frequency-based approaches
 
-*(Links and media can be added here)*
+
 
 ---
 
@@ -171,7 +171,4 @@ Final Engineering Thesis – FPGA-Based Digital Stroboscope
 
 ---
 
-## License
-
-*(Optional – e.g. MIT / BSD / Academic use)*
 
