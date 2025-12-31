@@ -135,8 +135,12 @@ The experiments confirmed correct operation of the stroboscope and demonstrated 
 ## Additional Materials
 
 - 📷 Custom PCB design (schematics and layout)
+  [Electronic schema of PCB](Images/praca_inżynierska.pdf)
 - 🎥 Demonstration video showing real-time stroboscopic operation
-- 📊 Comparative results of period-based and frequency-based approaches
+  [The stroboscope demo recording](Media/stroboscope_effect.mp4)
+
+This recording captures the audible behavior of the stroboscopic system during operation and complements the visual demonstration.
+
 
 
 
