@@ -135,7 +135,7 @@ The experiments confirmed correct operation of the stroboscope and demonstrated 
 ## Additional Materials
 
 - 📷 Custom PCB design (schematics and layout)
-  ![Electronic schema of PCB](images/praca_inżynierska.pdf)
+  ![Electronic schema of PCB](Images/praca_inżynierska.pdf)
 - 🎥 Demonstration video showing real-time stroboscopic operation
   ![The stroboscope demo recording](Media/stroboscope.mp4)
 
