@@ -30,7 +30,7 @@ entity top_dds is
         INTEGER_PART_INPUT : integer := 22;
         FRACTION_PART_INPUT : integer := 0;
         -- Rozmiar danych 
-        INTEGER_PART_PHASE : integer := 32;
+        INTEGER_PART_PHASE : integer := 33;
         FRACTION_PART_PHASE : integer := 0
       );
       Port ( 

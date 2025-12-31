@@ -25,7 +25,7 @@ end led_controler;
 architecture Behavioral of led_controler is
     subtype data_path is ufixed(INTEGER_PART - 1 downto FRACTION_PART);
     -- Przez ile procent czasu świecimy
-    constant flash_period : ufixed(0 downto -22) := to_ufixed(0.01, 0, -22);
+    constant flash_period : ufixed(0 downto -22) := to_ufixed(0.1, 0, -22);
     constant one : data_path := to_ufixed(1,data_path'high,data_path'low);
     -- Obsługa maszyny stanów
     type state_type is (idle,store_data,flash); 
